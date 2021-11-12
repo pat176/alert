@@ -40,22 +40,3 @@ const getD = (cryp) => {setInterval(() => {
 }, 1000);}
 getD("BTC")
 getD("SOL")
-// const getSolData = async () => {
-//   https.get('https://min-api.cryptocompare.com/data/v2/histominute?fsym=SOL&tsym=USD&limit=10&api_key=b8a4ce0dc14c286b06e7c6e710649a82aa5bf1a73f7080dc026e988eb91ff2f9', (resp) => {
-  
-//     // A chunk of data has been received.
-//     resp.on('data', (chunk) => {
-//       dataSOL += chunk;
-//     });
-  
-//     // The whole response has been received. Print out the result.
-//     resp.on('end', () => {
-      console.log(JSON.parse(dataSOL));
-//     });
-  
-//   }).on("error", (err) => {
-    console.log("Error: " + err.message);
-//   });
-  
-// }
-// getSolData()
