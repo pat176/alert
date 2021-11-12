@@ -30,7 +30,6 @@ exports.getD = (cryp) => {setInterval(() => {
           period: 5,
           signalPeriod: 3
         })
-        console.log(stoch)
         count+=1
         console.log(count)
         if (count % 60 === 0) ch = true
