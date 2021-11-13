@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-const defaultMailingList = "parthgupta12102004@gmail.com";
+const defaultMailingList = "parth.eng1210@gmail.com";
 const senderEmail = "parth.eng1210@gmail.com";
 const senderPassword = "1210@parth"; // gmail app password
 module.exports = {

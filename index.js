@@ -4,6 +4,7 @@ const product = require("./api/product");
 const dt = require("./main")
 
 dt.getD("SOL");
+dt.getD("BTC");
 app.use(express.json({ extended: false }));
 
 app.use("/api/product", product);
